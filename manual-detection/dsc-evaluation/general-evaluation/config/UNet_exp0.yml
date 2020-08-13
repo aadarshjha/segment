@@ -1,0 +1,19 @@
+EXP_NAME: 'UNet_exp0'
+INPUT:
+    DIR_IMG: 'data/imgs/'
+    DIR_MASK: 'data/masks/'
+    DIR_VALIMG: 'data/imgs_val/'
+    DIR_VALMASK: 'data/masks_val/'
+    DIR_TESTIMG: 'data/imgs_test/'
+    DIR_TESTMASK: 'data/masks_test/'
+    DIR_EXTTESTIMG: 'data/imgs_external_test/'
+    DIR_EXTTESTMASK: 'data/masks_external_test/'
+    DIR_CHECKPOINT: 'checkpoints/'
+ARGS:
+    EPOCHS: 150   #epoch number
+    BATCH_SIZE: 4  #batch size
+    LR: 0.0001   #learning rate
+    LOAD_PTH: False  #Load model from a .pth file
+EXP:
+    SCALE: 1     #scale of input image
+    COLORMAP: 'RGB'   #colormap in input images 'RGB'
