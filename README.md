@@ -8,7 +8,7 @@
 This repository contains both code and data relating to the experimentation performed to better understand effective segmentation methodologies utilizing deep learning techniques that improve glomeruli characterization on high-resolution Whole Slide Imaging.
 
   
-[arXiv pre-print link](https://arxiv.org/abs/2007.03593)
+[arXiv pre-print link](https://arxiv.org/pdf/2007.03593.pdf)
   
 
 ### Summary:
