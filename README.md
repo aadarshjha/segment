@@ -1,9 +1,9 @@
 
 # Instance Segmentation for Whole Slide Imaging: End-to-End or Detect-Then-Segment
 
-  
+> Aadarsh Jha, Haichun Yang, Ruining Deng, Meghan E. Kapp, Agnes B. Fogo, Yuankai Huo, "Instance segmentation for whole slide imaging: end-to-end or detect-then segment," J. Med. Imag. 8(1), 014001 (2021), doi: 10.1117/1.JMI.8.1.014001.
 
-  
+ 
 
 This repository contains both code and data relating to the experimentation performed to better understand effective segmentation methodologies utilizing deep learning techniques that improve glomeruli characterization on high-resolution Whole Slide Imaging.
 
