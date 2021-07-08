@@ -1,21 +1,23 @@
 
 # Instance Segmentation for Whole Slide Imaging: End-to-End or Detect-Then-Segment
 
-> Aadarsh Jha, Haichun Yang, Ruining Deng, Meghan E. Kapp, Agnes B. Fogo, Yuankai Huo, "Instance segmentation for whole slide imaging: end-to-end or detect-then segment," J. Med. Imag. 8(1), 014001 (2021), doi: 10.1117/1.JMI.8.1.014001.
-
- 
-
 This repository contains both code and data relating to the experimentation performed to better understand effective segmentation methodologies utilizing deep learning techniques that improve glomeruli characterization on high-resolution Whole Slide Imaging.
 
-  
-[arXiv pre-print link](https://arxiv.org/pdf/2007.03593.pdf)
-  
+### To Apply Our Model
+
+1. Download the model and a test image from: [Google Drive](https://drive.google.com/drive/folders/123qruJKe8pXGy48M91lqPZW0_xhl1w3U?usp=sharing)
+2. Download the test image, , provided in Google Drive. 
+3. Navigate to `segment/automatic-detection/deep-prediction`
+4. Set up the enviornment as described below
+5. `!python train.py`
+6. Evaluate results in `../dsc-evaluation` via `!python train.py`
+
+Please let me know if you have any questions @ aadarsh.jha@vanderbilt.edu 
 
 ### Summary:
 
 This research project comprehensively analyzes several factors relating to semantic segmentation (image resolution, color space, and segmentation backbones), as well as proposes and compares a "detect-then-segment" framework against current conventional end-to-end segmentation ("Mask-RCNN") methods utilized in high-resolution WSI.
 
-  
 
 ### General Methodology
 
@@ -33,9 +35,7 @@ Our project may be considered in two different phases:
 
 ### Usage and Data:
 
-  
 
-  
 
 #### Project Structure:
 
