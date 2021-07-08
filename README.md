@@ -6,7 +6,7 @@ This repository contains both code and data relating to the experimentation perf
 ### To Apply Our Model
 
 1. Download the model and a test image from: [Google Drive](https://drive.google.com/drive/folders/123qruJKe8pXGy48M91lqPZW0_xhl1w3U?usp=sharing)
-2. Download the test image, , provided in Google Drive. 
+2. Download the test image, provided in Google Drive. 
 3. Navigate to `segment/automatic-detection/deep-prediction`
 4. Set up the enviornment as described below
 5. `!python train.py`
